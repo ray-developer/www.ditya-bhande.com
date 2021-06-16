@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/photographs.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Ditya's Page</title>
+</head>
+
+<body>
+    <h3 class="btn btn-primary heading-style">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+        </svg> Home
+    </h3>
+
+    <h3 class="btn btn-default heading-style">
+        <a style="float: left;margin-left: 20px;" href="./Profile.html" class="btn btn-success">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 16 16">
+                <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
+            </svg>&nbsp;Go to profile</a>
+    </h3>
+
+
+    <div class="posts">
+        <h3 class="btn btn-default">
+            First Impression Is The Last Impression.
+        </h3>
+        <br>
+        <img src="/images/main.jpg" alt="First Photo" onclick=imageRedirect();>
+        <br><br>
+        <div class="content-captions">
+            <h6 class="text-primary hints-style">Captions: </h6>
+            <p class="text-muted captions">
+                hello guys !
+            </p>
+        </div>
+        <div class="post-by-users">
+            <p class="btn btn-default">Post by:<a href="http://www.instagram.com/dityahiphop_" target="_blank" id="redirect_users" class="btn btn-default">@dityahiphop_</a></p>
+        </div>
+    </div>
+
+    <div class="posts">
+        <h3 class="btn btn-default">
+            heading-style
+        </h3>
+        <br>
+        <video src="/videos/video.webm" controls onclick="videoRedirect();"></video>
+        <br><br>
+        <div class="content-captions">
+            <h6 class="text-primary hints-style">Captions: </h6>
+            <p class="text-muted captions">
+                empty
+            </p>
+        </div>
+        <div class="post-by-users">
+            <p class="btn btn-default">Post by:<a href="http://www.instagram.com/dityahiphop_" target="_blank" id="redirect_users" class="btn btn-default">@rayhiphop_</a></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./src/photographs.js"></script>
+</body>
+
+</html>

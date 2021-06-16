@@ -1,0 +1,59 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.heading-style {
+    width: 100%;
+    cursor: default;
+}
+
+.posts {
+    background-color: #f0f0f0;
+    border: 1px dashed grey;
+    border-radius: 13px;
+    box-shadow: 1px 1px 1px grey;
+    width: fit-content;
+    padding: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.posts h3 {
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.posts img,
+video {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content-captions {
+    background-color: rgb(233, 231, 231);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.captions {
+    font-size: 15px;
+    background-color: rgb(233, 231, 231);
+}
+
+.hints-style {
+    font-size: 14px;
+}
+
+#redirect_users {
+    color: rgb(52, 133, 255);
+}
+
+.post-by-users {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

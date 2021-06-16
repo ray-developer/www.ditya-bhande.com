@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ditya Bhande Login</title>
+</head>
+
+<body>
+    <h3 class="btn btn-primary heading">
+        Some Gallery
+    </h3>
+    <!-- Login Page -->
+    <center>
+
+        <br>
+        <img src="images/main.jpg" alt="Ditya Bhande" class="resize" title="Ditya's photo gallery" data-toggle="tooltip" data-placement="right">
+        <br><br>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <br>
+            <div class="form-group">
+                <label>Enter name: </label>
+                <input type="text" name="name" id="user_name" class="form-control" placeholder="Enter your name..">
+                <label>Enter email: </label>
+                <input type="email" name="email" id="user_email" class="form-control" placeholder="Enter your email..">
+                <label>Enter password: </label>
+                <input type="password" name="password" id="user_pass" class="form-control" placeholder="Enter your password..">
+                <br>
+                <span id="error_alert" style="color: red;"></span>
+                <br><br>
+                <input type="button" value="Login" onclick="login();" class="btn btn-success">
+            </div>
+            <br>
+        </div>
+
+        <br><br>
+    </center>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
